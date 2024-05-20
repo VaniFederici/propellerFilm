@@ -417,9 +417,16 @@ span {
     background-position: center;
   }
   .carousel-inner .carousel-item:nth-child(3) {
-    background: url(./media/responsive-carousel-2.png);
+    background: url(./media/responsive-carousel-3.png);
   }
   .carousel-inner .carousel-item:nth-child(2) {
-    background: url(./media/responsive-carousel-3.png);
+    background: url(./media/responsive-carousel-2.png);
+  }
+  .carousel-caption h1 {
+    font-size: 2rem;
+    
+  }
+  .carousel-caption i {
+    font-size: 3rem;
   }
 }
