@@ -424,7 +424,7 @@ span {
   }
   .carousel-caption h1 {
     font-size: 2rem;
-    
+    margin-bottom: 0px;
   }
   .carousel-caption i {
     font-size: 3rem;
