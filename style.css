@@ -429,4 +429,10 @@ span {
   .carousel-caption i {
     font-size: 3rem;
   }
+  .carousel-caption h3 {
+    font-size: 1.5rem;
+  }
+  .carousel-caption {
+    bottom: 16rem;    
+}
 }
