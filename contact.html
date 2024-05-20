@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous" ></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Propeller film</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark fixed-top">
+      <div class="container-fluid hamburguer">
+        <a class="navbar-brand" href="./index.html"
+          ><img class="logo" src="./media/logo.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end text-bg-dark"
+          tabindex="-1"
+          id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <img class="drop-logo" src="./media/logo.png" />
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul
+              class="navbar-nav navbar-expand-lg justify-content-end flex-grow-1 pe-3"
+            >
+              <li class="nav-item">
+                <a class="nav-link" href="./filmtv.html">Film + Tv</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./work.html">Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main class="directors">
+      <div class="contact-container">
+        <h1>
+          Get in <br />touch <br />
+          width <br />
+          Us.
+        </h1>
+        <h1 class="contact-mobile__title">Hello ,Hola, Ciao?</h1>
+        <div class="contact-form__container">
+          <p>Contact us.</p>
+          <form
+            name="form"
+            action="contact.php"
+            method="POST"
+            onSubmit="return validate();"
+          >
+            <label for="name">Name:</label><br />
+            <input type="text" id="name" name="name" /><br />
+            <label for="email">Email:</label><br />
+            <input type="email" id="email" name="email" /><br />
+            <label for="message">Message:</label><br />
+            <textarea id="message" name="message"></textarea><br />
+            <div class="button-container">
+              <input class="button" type="submit" value="Send" />
+            </div>
+            <label id="form-error"></label>
+          </form>
+          <p><i class="bi bi-envelope"></i>  info@propellerfilm.com</p>
+          <p><i class="bi bi-telephone"></i></i>  323.707.1121</p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="brand-container">
+        <img src="./media/logo-redandblack.png" alt="logo" />
+      </div>
+      <div class="data-container">
+        <p>
+          General Inquiries<br />info@propellerinnovation.com<br />323.707.1121
+        </p>
+      </div>
+      <div class="social-container">
+        <div class="icon-container">
+          <a
+            href="https://www.facebook.com/propellerinnovation/"
+            target="_blank"
+          >
+            <i class="bi bi-facebook"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/propellerinnovation/"
+            target="_blank"
+            ><i class="bi bi-instagram"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/company/propeller-inc./"
+            target="_blank"
+            ><i class="bi bi-linkedin"></i
+          ></a>
+        </div>
+        <p>© Propeller 2024</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
